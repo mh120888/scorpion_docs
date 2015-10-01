@@ -1,7 +1,5 @@
 ---
 title: 'Docs'
 ---
-<% pages = sitemap.resources.find_all{|p| p.source_file.match(/\.html/) } %>
-<% pages.each do |page| %>
-    <p><%= page %></p>
-<% end %>
+
+<ul><%= tree_to_html(data.tree) %></ul>

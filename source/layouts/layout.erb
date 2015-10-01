@@ -14,6 +14,9 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <%= partial "header" %>
+    <main>  
+      <%= yield %>
+    </main>
   </body>
 </html>

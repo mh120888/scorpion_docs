@@ -1,0 +1,4 @@
+---
+index.html.erb: "/index.html.erb"
+articles:
+  one: "/articles/one"
